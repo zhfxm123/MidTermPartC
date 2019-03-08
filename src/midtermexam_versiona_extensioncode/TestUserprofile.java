@@ -16,6 +16,7 @@ public class TestUserprofile {
         
         UserProfile u1 = new UserProfile(name, genre);
         
+        System.out.println(u1.toString());
         
     }
 }

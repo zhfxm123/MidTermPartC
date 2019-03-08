@@ -61,7 +61,10 @@ public class UserProfile
         this.genre = genre;
     }
     
-    
+    public String toString(){
+        return String.format("Your UserID:" + userID + "     "+
+                "Your favorite genre: " + genre);
+    }
     
     
     
